@@ -1,0 +1,32 @@
+{
+	"intro": {
+		"start": "const Risa = ( name, passion ) =>",
+		"end": "Hello, my name is",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"name": "Risa Augusta Murti",
+		"usp": "Software Engineer"
+	},
+	
+	"paragraph": "final year undergraduate student — passionate in software engineering especially for mobile apps development.",
+	
+	"buttons": {
+		"primary": {
+			"title": "Contact Me",
+			"url": "",
+			"leaveSite": false
+		},
+		"secondary": {
+			"title": "LinkedIn",
+			"url": "",
+			"leaveSite": "true"
+		}
+	}
+}
