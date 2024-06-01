@@ -45,13 +45,14 @@ export default function About() {
 							icon={['fat', 'ear-listen']}
 							time="Informatics Engineering | 2020 - 2024"
 							copy0="• GPA 3.91/4.00"
-							copy1="• Awardee Beasiswa Unggulan Kemendikbudristek"
-							copy2="• 3rd Winner of The Most Outstanding Student (Faculty of Engineering)"
-							copy3="• Partial-Funded Awardee Asian Youth Exchange Program Chapter Turki"
-							copy4="• Awardee Research Funding Program Kreativitas Mahasiswa (PKM)"
-							copy5="• Hak Cipta Program Komputer - ID EC00202143203, ID EC00202374121, ID EC00202312282"
-							copy6="• Top 30 Finalist International MAIoT Challenge"
-							copy7="• Finish study in 7 semester"
+							copy1="• 2nd Best Graduate Faculty of Engineering"
+							copy2="• Awardee Beasiswa Unggulan Kemendikbudristek"
+							copy3="• 3rd Winner of The Most Outstanding Student (Faculty of Engineering)"
+							copy4="• Partial-Funded Awardee Asian Youth Exchange Program Chapter Turki"
+							copy5="• Awardee Research Funding Program Kreativitas Mahasiswa (PKM)"
+							copy6="• Hak Cipta Program Komputer - ID EC00202143203, ID EC00202374121, ID EC00202312282"
+							copy7="• Top 30 Finalist International MAIoT Challenge"
+							copy8="• Finish study in 7 semester" 
 						// copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
 						/>
 						<CopyBlock

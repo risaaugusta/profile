@@ -14,7 +14,7 @@ import space from '../utils/spacing.util';
  * @param {string} 	src written content
  * @returns {jsx} <CopyBlock />
  */
-export default function CopyBlock({ containerClass, iconClass, icon, title, copy,copy0,copy1,copy2,copy3,copy4,copy5,copy6,copy7,time, src }) {
+export default function CopyBlock({ containerClass, iconClass, icon, title, copy,copy0,copy1,copy2,copy3,copy4,copy5,copy6,copy7,copy8,time, src }) {
 	return (
 		<>
 			<div className={containerClass}>
@@ -50,6 +50,9 @@ export default function CopyBlock({ containerClass, iconClass, icon, title, copy
 						</li>
 						<li>
 						{copy7}
+						</li>
+						<li>
+						{copy8}
 						</li>
 					</ul>
 				</p>
