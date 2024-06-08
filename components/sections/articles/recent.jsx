@@ -66,7 +66,7 @@ export default function Recent({ mediumArticles }) {
         </section> */}
 
         <section className={css.projects}>
-          {/* ARTICLE 2 */}
+          {/* ARTICLE 1 */}
           <article className={css.project}>
             <span className={css.header}>
               <a
@@ -95,7 +95,7 @@ export default function Recent({ mediumArticles }) {
             </span>
           </article>
 
-          {/* ARTICLE 3 */}
+          {/* ARTICLE 2 */}
           <article className={css.project}>
             <span className={css.header}>
               <a
@@ -124,7 +124,7 @@ export default function Recent({ mediumArticles }) {
             </span>
           </article>
 
-          {/* ARTICLE 4 */}
+          {/* ARTICLE 3 */}
           <article className={css.project}>
             <span className={css.header}>
               <a
@@ -150,7 +150,7 @@ export default function Recent({ mediumArticles }) {
             </span>
           </article>
 
-          {/* ARTICLE 5 */}
+          {/* ARTICLE 4 */}
           <article className={css.project}>
             <span className={css.header}>
               <a
@@ -178,6 +178,8 @@ export default function Recent({ mediumArticles }) {
               </span>
             </span>
           </article>
+         
+         {/* ARTICLE 5 */}
           <article className={css.project}>
             <span className={css.header}>
               <a
@@ -203,6 +205,58 @@ export default function Recent({ mediumArticles }) {
               <span className={css.topics}>
                 <Icon icon={["fas", "plane"]} /> Study abroad
               </span>
+            </span>
+          </article>
+
+         {/* ARTICLE 6 */}
+          <article className={css.project}>
+            <span className={css.header}>
+              <a
+                href={
+                  "https://radarmalang.jawapos.com/pendidikan/811079848/cegah-bencana-banjir-mahasiswa-um-ciptakan-inovasi-alat-monitor-dam"
+                }
+                rel="noreferrer"
+                target="_blank"
+              >
+                Cegah Bencana Banjir, Mahasiswa UM Ciptakan Inovasi Alat Monitor DAM
+                <Icon icon={["fad", "arrow-up-right-from-square"]} />
+              </a>
+            </span>
+            <span className={css.descriptionContainer}></span>
+            <span className={css.details}>
+              <p>By Jawa Pos Radar Malang</p>
+              <p className={css.pushedAt}>Oct 2021</p>
+            </span>
+            <span className={css.topicsContainer}>
+              <span className={css.topics}>
+                <Icon icon={["fas", "wifi"]} /> IoT
+              </span> 
+            </span>
+          </article>
+
+         {/* ARTICLE 7*/}
+          <article className={css.project}>
+            <span className={css.header}>
+              <a
+                href={
+                  "https://www.kompasiana.com/salma0902/61459b1b06310e31482acd62/mahasiswa-um-inovasikan-sistem-pemantauan-dam-berbasis-aplikasi-sebagai-mitigasi-banjir-di-kota-malang"
+                }
+                rel="noreferrer"
+                target="_blank"
+              >
+                Mahasiswa UM Inovasikan Sistem Pemantauan DAM Berbasis Aplikasi sebagai Mitigasi Banjir di Kota Malang
+                <Icon icon={["fad", "arrow-up-right-from-square"]} />
+              </a>
+            </span>
+            <span className={css.descriptionContainer}></span>
+            <span className={css.details}>
+              <p>By Kompasiana</p>
+              <p className={css.pushedAt}>Sept 2021</p>
+            </span>
+            <span className={css.topicsContainer}>
+              <span className={css.topics}>
+                <Icon icon={["fas", "wifi"]} /> IoT
+              </span> 
             </span>
           </article>
         </section>
