@@ -2,7 +2,7 @@
 ./node_modules
 
 # Next.js bild outpust
-./.next/*
+.next/*
 out/
 
 # Essential files
