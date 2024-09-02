@@ -77,15 +77,19 @@ export default function Technical() {
 
 const mobile = [
 	{ key: 'flutter', name: 'flutter', type: 'devicon' },
+	{ key: 'swift', name: 'swift', type: 'devicon' },
 	{ key: 'react', name: 'React Native', type: 'devicon' },
 	{ key: 'fastapi', name: 'REST API', type: 'devicon' },
 	{ key: 'figma', name: 'Figma', type: 'devicon' },
 	{ key: 'vscode', name: 'VSCode', type: 'devicon' },
+	{ key: 'xcode', name: 'XCode', type: 'devicon' },
 	{ key: 'androidstudio', name: 'Android Studio', type: 'devicon' },
 	{ key: 'xcode', name: 'XCode', type: 'devicon' },
 	{ key: 'mailbox', name: 'Postman', type: 'fas' }, 
 	{ key: 'sqlite', name: 'sqlite', type: 'devicon' },
 	{ key: 'git', name: 'Git', type: 'devicon' },
+	{ key: 'android', name: 'Android', type: 'devicon' },
+	{ key: 'apple', name: 'IOS', type: 'devicon' },
 ]
 
 const web = [

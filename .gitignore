@@ -41,3 +41,5 @@ lerna-debug.log*
 # Tests
 coverage/
 *.lcov
+node_modules
+node_modules
