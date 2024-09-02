@@ -1,8 +1,8 @@
 # Dependencies
-node_modules/
+./node_modules
 
-# Next.js build output
-.next/
+# Next.js build outpust
+.next/g
 out/
 
 # Essential files
@@ -41,5 +41,3 @@ lerna-debug.log*
 # Tests
 coverage/
 *.lcov
-node_modules
-node_modules
