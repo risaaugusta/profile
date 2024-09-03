@@ -1,8 +1,8 @@
 Arguments: 
-  /Users/risaaugusta/.nvm/versions/node/v19.7.0/bin/node /Users/risaaugusta/.nvm/versions/node/v19.7.0/bin/yarn install
+  /Users/risaaugusta/.nvm/versions/node/v19.7.0/bin/node /Users/risaaugusta/.nvm/versions/node/v19.7.0/bin/yarn add sass
 
 PATH: 
-  /Users/risaaugusta/.nvm/versions/node/v19.7.0/bin:/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/risaaugusta/.nvm/versions/node/v19.7.0/bin:/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/risaaugusta/Library/Application Support/JetBrains/Toolbox/scripts:/Users/risaaugusta/Library/Android/sdk/emulator:/Users/risaaugusta/Library/Android/sdk/tools:/Users/risaaugusta/Library/Android/sdk/tools/bin:/Users/risaaugusta/Library/Android/sdk/platform-tools:/Users/risaaugusta/Library/Android/sdk/cmdline-tools/latest/bin:/Users/risaaugusta/Library/Application Support/JetBrains/Toolbox/scripts:/Users/risaaugusta/Library/Android/sdk/emulator:/Users/risaaugusta/Library/Android/sdk/tools:/Users/risaaugusta/Library/Android/sdk/tools/bin:/Users/risaaugusta/Library/Android/sdk/platform-tools:/Users/risaaugusta/Library/Android/sdk/tools:/Users/risaaugusta/Library/Android/sdk/tools/bin:/Users/risaaugusta/Library/Android/sdk/platform-tools:/Users/risaaugusta/Library/Android/sdk/cmdline-tools/latest/bin
+  /Users/risaaugusta/.nvm/versions/node/v19.7.0/bin:/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/risaaugusta/.nvm/versions/node/v19.7.0/bin:/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/risaaugusta/Library/Application Support/JetBrains/Toolbox/scripts:/Users/risaaugusta/Library/Android/sdk/emulator:/Users/risaaugusta/Library/Android/sdk/tools:/Users/risaaugusta/Library/Android/sdk/tools/bin:/Users/risaaugusta/Library/Android/sdk/platform-tools:/Users/risaaugusta/Library/Android/sdk/cmdline-tools/latest/bin:/Users/risaaugusta/Library/Application Support/JetBrains/Toolbox/scripts:/Users/risaaugusta/Library/Android/sdk/emulator:/Users/risaaugusta/Library/Android/sdk/tools:/Users/risaaugusta/Library/Android/sdk/tools/bin:/Users/risaaugusta/Library/Android/sdk/platform-tools:/Users/risaaugusta/Library/Android/sdk/tools:/Users/risaaugusta/Library/Android/sdk/tools/bin:/Users/risaaugusta/Library/Android/sdk/platform-tools:/Users/risaaugusta/Library/Android/sdk/cmdline-tools/latest/bin
 
 Yarn version: 
   1.22.19
@@ -14,7 +14,7 @@ Platform:
   darwin arm64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@fortawesome%2fpro-duotone-svg-icons: Not found
+  Error: https://registry.npmjs.org/@fortawesome%2fpro-duotone-svg-icons: Not found
       at params.callback [as _callback] (/Users/risaaugusta/.nvm/versions/node/v19.7.0/lib/node_modules/yarn/lib/cli.js:66145:18)
       at self.callback (/Users/risaaugusta/.nvm/versions/node/v19.7.0/lib/node_modules/yarn/lib/cli.js:140890:22)
       at Request.emit (node:events:512:28)
@@ -52,9 +52,10 @@ npm manifest:
   		"@uiw/react-markdown-preview": "^4.1.7",
   		"@vercel/analytics": "^0.1.6",
   		"babel-plugin-macros": "^3.1.0",
+  		"body-parser": "^1.20.2",
   		"devicon": "^2.15.1",
   		"framer-motion": "^8.5.0",
-  		"next": "^12.3",
+  		"next": "^14.2.4",
   		"react": "^18.2.0",
   		"react-dom": "^18.2.0",
   		"react-intersection-observer": "^9.4.1",

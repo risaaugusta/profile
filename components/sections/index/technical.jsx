@@ -77,7 +77,7 @@ export default function Technical() {
 
 const mobile = [
 	{ key: 'flutter', name: 'flutter', type: 'devicon' },
-	{ key: 'swift', name: 'swift', type: 'devicon' },
+	{ key: 'swift', name: 'Swift', type: 'devicon' },
 	{ key: 'react', name: 'React Native', type: 'devicon' },
 	{ key: 'fastapi', name: 'REST API', type: 'devicon' },
 	{ key: 'figma', name: 'Figma', type: 'devicon' },

@@ -4,15 +4,15 @@ import { useEffect, useState } from 'react'
 // Font Awesome packages
 const { library, config } = require('@fortawesome/fontawesome-svg-core')
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fas } from '@fortawesome/pro-solid-svg-icons'
-import { fat } from '@fortawesome/pro-thin-svg-icons'
-import { fal } from '@fortawesome/pro-light-svg-icons'
-import { fad } from '@fortawesome/pro-duotone-svg-icons'
-import { far } from '@fortawesome/pro-regular-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faT } from '@fortawesome/free-solid-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { faL } from '@fortawesome/free-solid-svg-icons' 
+import { faD } from '@fortawesome/free-solid-svg-icons'
+import { faR } from '@fortawesome/free-solid-svg-icons'
+import { faB } from '@fortawesome/free-solid-svg-icons'
 
 // Load icons into
-library.add(fat, fal, fas, fad, far, fab)
+library.add(faT, faL, fas, faD, faR, faB)
 
 /**
  * Icon factory utility.
