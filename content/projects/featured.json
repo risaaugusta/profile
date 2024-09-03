@@ -45,7 +45,8 @@
 		"project": "Eventeer App V1",
 		"url": "",
 		"repo": "Private", 
-		"description": "The All-In-One Event Website Platform for Event Organizer. Manage events, embrace the community and discover the potential to learn together with just one platform. Issued by Telkom Indonesia (Digital Amoeba).",
+		"descriptionTitle": "The All-In-One Event Website Platform for Event Organizer. Manage events, embrace the community and discover the potential to learn together with just one platform.",
+		"description": "powered by Telkom Indonesia (Digital Amoeba)",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
@@ -65,7 +66,8 @@
 		"project": "Eventeer App V2",
 		"url": "",
 		"repo": "Private", 
-		"description": "The revamp of Eventeer App V1 with app performance improvement. Issued by Telkom Indonesia (Digital Amoeba).",
+		"descriptionTitle": "The revamp of Eventeer App V1 with app performance improvement.",
+		"description": "powered by Telkom Indonesia (Digital Amoeba)",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
@@ -84,7 +86,8 @@
 		"project": "Eventeer Web V2",
 		"url": "",
 		"repo": "Private", 
-		"description": "The revamp of Eventeer Web V1 with app performance improvement. Issued by Telkom Indonesia (Digital Amoeba).",
+		"descriptionTitle": "The revamp of Eventeer Web V1 with app performance improvement. Issued by Telkom Indonesia (Digital Amoeba).",
+		"description": "powered by Telkom Indonesia (Digital Amoeba)",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
