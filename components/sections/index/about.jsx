@@ -41,8 +41,8 @@ export default function About() {
 						<CopyBlock
 							title="State University of Malang"
 							containerClass={about.container}
-							iconClass={about.icon}
-							icon={['fat', 'ear-listen']}
+							src="/img/logos/UM.jpg"
+							iconClass={about.icon} 
 							time="Informatics Engineering | 2020 - 2024"
 							copy0="• GPA 3.91/4.00"
 							copy1="• 2nd Best Graduate Faculty of Engineering"
@@ -58,8 +58,8 @@ export default function About() {
 						<CopyBlock
 							title="Telkom Schools Malang"
 							containerClass={about.container}
+							src="/img/logos/logo_telkom.png"
 							iconClass={about.icon}
-							icon={['fat', 'ear-listen']}
 							time="Software Engineering | 2017 - 2020"
 							copy1="• 1st Winner of Internet of Things Competition" 
 						// copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
