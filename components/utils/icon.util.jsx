@@ -1,18 +1,14 @@
 // Core packages
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 
 // Font Awesome packages
-const { library, config } = require('@fortawesome/fontawesome-svg-core')
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faT } from '@fortawesome/free-solid-svg-icons'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { faL } from '@fortawesome/free-solid-svg-icons' 
-import { faD } from '@fortawesome/free-solid-svg-icons'
-import { faR } from '@fortawesome/free-solid-svg-icons'
-import { faB } from '@fortawesome/free-solid-svg-icons'
+const { library } = require('@fortawesome/fontawesome-svg-core');
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faT, faD, faR, faB } from '@fortawesome/free-solid-svg-icons';
 
-// Load icons into
-library.add(faT, faL, fas, faD, faR, faB)
+// Load icons into library
+library.add(faTwitter, faGithub, faLinkedin, faT, faD, faR, faB);
 
 /**
  * Icon factory utility.
@@ -25,21 +21,16 @@ library.add(faT, faL, fas, faD, faR, faB)
  * 
  * ! requiring the library will likely create a SSR issue
  * ! According to maintainers of @fortawesome the best solution will be to import the icon directly 
- * ! and avoit the library module all together which is inline with MD loading plans
+ * ! and avoid the library module altogether which is inline with MD loading plans
  * * https://github.com/FortAwesome/Font-Awesome/issues/19348
  *
  * @param 	{array} icon request props [ iconType, iconKey ]
  * @returns {jsx} 	<Icon />
  */
 export default function Icon({ icon }) {
-
-	const [ iconType, iconKey ] = icon
-
-	const [ stateIconKey, setIconKey ] = useState('circle-notch')
-
-	useEffect( () => setIconKey( iconKey ), [ iconKey ] )
+	const [iconType, iconKey] = icon;
 
 	return (
-		<FontAwesomeIcon icon={[ iconType, stateIconKey ]} />
-	)
+		<FontAwesomeIcon icon={[iconType, iconKey]} />
+	);
 }

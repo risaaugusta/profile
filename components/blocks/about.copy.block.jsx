@@ -26,7 +26,7 @@ export default function CopyBlock({ containerClass, iconClass, icon, title, copy
 				<h4>{time}</h4>
 				<p>
 					{copy}
-					<ul >
+					<ul>
 					<li>
 							{copy0}
 						</li>
