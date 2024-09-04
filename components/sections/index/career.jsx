@@ -35,12 +35,15 @@ export default function Career() {
               <span className={career.companyHeader}>
                 <h3>PT Bringin Inti Teknologi </h3>
                 <h4>Front End Mobile Developer | Full-time</h4>
-                <h4>Jan 2024 - Present · 5 mos</h4>
+                <h4>Jan 2024 - Present · 9 mos</h4>
                 <h5>Jakarta</h5>
               </span>
               <ul className={career.list}>
                 <li>
                   • Developed Homespot App a one-stop housing marketplace by BRI
+                </li> 
+                <li>
+                  • Release app to production (Playstore)
                 </li> 
                 <li>
                   • Collaborated closely with project manager, back end developer, and QA
@@ -322,17 +325,19 @@ const telkomWeb = [
   { key: "nodejs", name: "NodeJS", type: "devicon" },
   { key: "nextjs", name: "NextJS", type: "devicon" },
   { key: "react", name: "React", type: "devicon" },
+  { key: 'fastapi', name: 'REST API', type: 'devicon' },
   { key: "sass", name: "SASS", type: "devicon" },
   { key: "bootstrap", name: "Bootstrap", type: "devicon" },
   { key: "git", name: "Git", type: "devicon" },
 ];
 
 const telkomMobile = [
-  { key: "javascript", name: "JavaScript", type: "devicon" },
-  { key: "nodejs", name: "NodeJS", type: "devicon" },
-  { key: "react", name: "React", type: "devicon" },
+  { key: "react", name: "React Native", type: "devicon" },
   { key: "flutter", name: "Flutter", type: "devicon" },
+  { key: "javascript", name: "JavaScript", type: "devicon" },
   { key: "dart", name: "Dart", type: "devicon" },
+  { key: "nodejs", name: "NodeJS", type: "devicon" },
+  { key: 'fastapi', name: 'REST API', type: 'devicon' },
   { key: "git", name: "Git", type: "devicon" },
 ];
 
@@ -357,6 +362,7 @@ const jseHPU = [
   { key: "flutter", name: "flutter", type: "devicon" },
   { key: "dart", name: "dart", type: "devicon" },
   { key: "sqlite", name: "sqlite", type: "devicon" },
+  { key: 'fastapi', name: 'REST API', type: 'devicon' },
   { key: "android", name: "android", type: "devicon" },
   { key: "figma", name: "figma", type: "devicon" },
 ];
@@ -365,6 +371,7 @@ const feBIT = [
   { key: "flutter", name: "flutter", type: "devicon" },
   { key: "dart", name: "dart", type: "devicon" },
   { key: "android", name: "android", type: "devicon" },
+  { key: 'fastapi', name: 'REST API', type: 'devicon' },
   { key: "figma", name: "figma", type: "devicon" },
 ];
 
