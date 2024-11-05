@@ -134,7 +134,7 @@ export default function Recent({ mediumArticles }) {
                 rel="noreferrer"
                 target="_blank"
               >
-                Pilmapres
+                Pemilihan Mahasiswa Berprestasi 
                 <Icon icon={["fad", "arrow-up-right-from-square"]} />
               </a>
             </span>
