@@ -100,7 +100,7 @@ export default function Recent({ mediumArticles }) {
             <span className={css.header}>
               <a
                 href={
-                  "https://www.linkedin.com/feed/update/urn:li:activity:7197213477113905152/"
+                  "https://www.linkedin.com/feed/update/urn:li:activity:7082930190108012544/"
                 }
                 rel="noreferrer"
                 target="_blank"
