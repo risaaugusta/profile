@@ -35,7 +35,7 @@ export default function Career() {
               <span className={career.companyHeader}>
                 <h3>PT Bringin Inti Teknologi </h3>
                 <h4>Front End Mobile Developer | Full-time</h4>
-                <h4>Jan 2024 - Present · 9 mos</h4>
+                <h4>Jan 2024 - Present · 11 mos</h4>
                 <h5>Jakarta</h5>
               </span>
               <ul className={career.list}>
