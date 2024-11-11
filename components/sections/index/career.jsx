@@ -40,14 +40,20 @@ export default function Career() {
               </span>
               <ul className={career.list}>
                 <li>
-                  • Developed Homespot App a one-stop housing marketplace by BRI
+                  • Troubleshooting, bug-fixing, and code optimization the existing Homespot App by BRI
                 </li> 
                 <li>
-                  • Release app to production (Playstore)
+                  • Develope Homespot App revamp version by BRI
+                </li> 
+                <li>
+                  • Working with BloC state management with clean architecture pattern
                 </li> 
                 <li>
                   • Collaborated closely with project manager, back end developer, and QA
                 </li>
+                <li>
+                  • Responsible to app production and submission to Google Play Store, ensuring timely and successful releases
+                </li> 
               </ul>
               <Badges
                 list={feBIT}
@@ -128,10 +134,10 @@ export default function Career() {
                 </span>
                 <ul className={career.list}>
                   <li>
-                    • Bug fixing and code optimization on Eventeer App V1 to
-                    improve app performance.
+                    • Troubleshooting, bug-fixing, and code optimization the existing Eventeer App V1 using React Native and React Expo
                   </li>
-                  <li>• Developed and revamp Eventeer App V2</li>
+                  <li>• Reducing app size ~20% by removing unnecessary function, code, and resources</li>
+                  <li>• Developed Eventeer App V2 using Flutter with GetX state management</li>
                   <li>• Troubleshooting and bug fixing on Eventeer App V2 .</li>
                   <li>
                     • Collaborated with stakeholders, UI/UX designers, system
@@ -185,12 +191,13 @@ export default function Career() {
               </span>
               <ul className={career.list}>
                 <li>
-                  • Developed a synchronized fuel management system mobile app
-                  that impactful for 10++ mining site
+                  • Developed a synchronized fuel management system mobile app that impactful for 10++ mining site
                 </li>
                 <li>
-                  • Created various fuel transactions features, OTP auth, and QR
-                  code scanner
+                  • Created various fuel transactions features, OTP auth, and QR code scanner using Flutter, REST APIs, and SQLite
+                </li>
+                <li>
+                  • Managing end to end development cycle for mobile
                 </li>
                 <li>
                   • Collaborated closely with team leader and back end developer
