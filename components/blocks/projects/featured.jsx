@@ -42,7 +42,9 @@ export default function FeaturedProject({ content }, index) {
 						<h3 className="highlight">{project}</h3><span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>	
 					</div>
 					<div className={css.description}>
-						<p><strong>{descriptionTitle}</strong> {description}</p>
+						<p><strong>{descriptionTitle}</strong> </p>
+						<br />
+						<p style={{fontSize: 18}}>{description}</p>
 					</div>
 					<div className={css.stackContainer}>
 						<Badges list={stack} block="stack" fullContainer={false} color={false} />

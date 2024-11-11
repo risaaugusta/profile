@@ -20,6 +20,27 @@
 		]
 	},
 	{
+		"project": "Homespot App",
+		"url": "",
+		"repo": "Private",
+		"descriptionTitle": "Homespot is a one-stop housing marketplace designed specifically for BRI that connects buyers, sellers, and renters with those in need. ",
+		"description": "Powered by PT Bringin Inti Teknologi.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "450", "w": "300", "url": "/img/msc-mock_stack/homespot.png" }
+		],
+		"stack": [
+			{ "key": "flutter", 		"name": "flutter", 			"type": "devicon" },
+			{ "key": "dart", 		"name": "dart", 			"type": "devicon" },
+			{ "key": "android",		"name": "android", 		"type": "devicon" }, 
+			{ "key": "fastapi",		"name": "REST API", 		"type": "devicon" },
+			{ "key": "git",			"name": "gitlab", 	"type": "devicon" } 
+		]
+	},
+	{
 		"project": "Login App (Logistic Interactive App).",
 		"url": "",
 		"repo": "Private",
