@@ -29,6 +29,7 @@ export default function CopyBlock({
   copy6,
   copy7,
   copy8,
+  copy9,
   time,
   src,
 }) {

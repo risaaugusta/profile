@@ -34,7 +34,7 @@ export default function About() {
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/profile_01.jpg" alt="Risa's profile photo" style={{height:600, marginTop:100}} />
+						<img src="/img/profile_02.jpg" alt="Risa's profile photo" style={{height:600, marginTop:100}} />
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
@@ -51,8 +51,9 @@ export default function About() {
 							copy4="• Partial-Funded Awardee Asian Youth Exchange Program Chapter Turki"
 							copy5="• Awardee Research Funding Program Kreativitas Mahasiswa (PKM)"
 							copy6="• Hak Cipta Program Komputer - ID EC00202143203, ID EC00202374121, ID EC00202312282"
-							copy7="• Top 30 Finalist International MAIoT Challenge"
-							copy8="• Finish study in 7 semester" 
+							copy7="• Langkah Asa Book - ISBN 978-623-98368-0-1"
+							copy8="• Top 30 Finalist International MAIoT Challenge"
+							copy9="• Finish study in 7 semester" 
 						// copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
 						/>
 						<CopyBlock
