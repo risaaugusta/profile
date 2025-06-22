@@ -39,7 +39,7 @@ export default function Footer() {
 							content.social.map( ({ url, icon }, index) => {
 								return (
 									<a  key={index} href={url} rel="noreferrer" target="_blank">
-										<Icon icon={[ 'fab', icon ]} /><i class="fa-brands fa-gitlab"></i>
+										<Icon icon={[ 'fab', icon ]} />
 										</a>
 								)
 							})
