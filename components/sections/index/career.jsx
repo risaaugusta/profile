@@ -43,7 +43,7 @@ export default function Career() {
                   • Troubleshooting, bug-fixing, and code optimization the existing Homespot App by BRI
                 </li> 
                 <li>
-                  • Develope Homespot App revamp version by BRI
+                  • Develope Homespot App revamp version by BRI and BRIBox Trackmate App
                 </li> 
                 <li>
                   • Working with BloC state management with clean architecture pattern
@@ -53,7 +53,7 @@ export default function Career() {
                 </li>
                 <li>
                   • Responsible to app production and submission to Google Play Store, ensuring timely and successful releases
-                </li> 
+                </li>  
               </ul>
               <Badges
                 list={feBIT}
@@ -167,7 +167,7 @@ export default function Career() {
                 <li>• Handle 60+ students</li>
                 <li>
                   • Assisting Mrs. Ir. Triyanna Widiyaningtyas, S.T. M.T. for
-                  subject Database and Information System
+                  Database and Information System course
                 </li>
                 <li>• Manage practicum, assignments, and score</li>
               </ul>
