@@ -28,7 +28,7 @@ export default function FeaturedProjects() {
             className={`button ${button.primary} leaveSite`}
             onClick={() =>
               window.open(
-                "https://bit.ly/RisaAM_Portfolio_Aug2025",
+                "https://bit.ly/portfolio_risaam",
                 "_blank"
               )
             }
