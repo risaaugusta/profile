@@ -66,6 +66,35 @@ export default function Recent({ mediumArticles }) {
         </section>
 
         <section className={css.projects}>
+          {/* ARTICLE */}
+          <article className={css.project}>
+            <span className={css.header}>
+              <a
+                href={
+                  "https://risaaugusta.medium.com/same-question-same-answer-b1428f71b585"
+                }
+                rel="noreferrer"
+                target="_blank"
+              >
+                Same Question, Same Answer{" "}
+                <Icon icon={["fad", "arrow-up-right-from-square"]} />
+              </a>
+            </span>
+            <span className={css.descriptionContainer}></span>
+            <span className={css.details}>
+              <p>By Risa Augusta</p>
+              <p className={css.pushedAt}>Sept 2025</p>
+            </span>
+            <span className={css.topicsContainer}>
+              <span className={css.topics}>
+                <Icon icon={["fas", "pen-to-square"]} /> Jakarta
+              </span>
+              <span className={css.topics}>
+                <Icon icon={["fas", "graduation-cap"]} /> Life
+              </span>
+            </span>
+          </article>
+
           {/* ARTICLE 1 */}
           <article className={css.project}>
             <span className={css.header}>
