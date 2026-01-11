@@ -35,7 +35,7 @@ export default function Career() {
               <span className={career.companyHeader}>
                 <h3>PT Bringin Inti Teknologi </h3>
                 <h4>Mobile Developer | Full-time</h4>
-                <h4>Jan 2024 - Present · 1 yr</h4>
+                <h4>Jan 2024 - Jan 2025 · 2 yrs</h4>
                 <h5>Jakarta</h5>
               </span>
               <ul className={career.list}>
@@ -43,10 +43,10 @@ export default function Career() {
                   • Troubleshooting, bug-fixing, and code optimization the existing Homespot App by BRI
                 </li> 
                 <li>
-                  • Develope Homespot App revamp version by BRI and BRIBox Trackmate App
+                  • Developed Homespot App revamp version by BRI, BRIBox Trackmate App, and ETWPAD App
                 </li> 
                 <li>
-                  • Working with BloC state management with clean architecture pattern
+                  • Working with BloC and GetX state management with clean architecture pattern
                 </li> 
                 <li>
                   • Collaborated closely with project manager, back end developer, and QA

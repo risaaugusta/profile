@@ -20,6 +20,27 @@
 		]
 	},
 	{
+		"project": "Trackmate BRIBox App",
+		"url": "",
+		"repo": "Private",
+		"descriptionTitle": "Trackmate BRIBox is an internal application for monitoring and tracking BRI’s IT assets across work units, including devices such as PCs, hubs, and other supporting equipment. ",
+		"description": "Powered by PT Bringin Inti Teknologi.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "450", "w": "300", "url": "/img/msc-mock_stack/bribox_mock.png" }
+		],
+		"stack": [
+			{ "key": "flutter", 		"name": "flutter", 			"type": "devicon" },
+			{ "key": "dart", 		"name": "dart", 			"type": "devicon" },
+			{ "key": "android",		"name": "android", 		"type": "devicon" }, 
+			{ "key": "fastapi",		"name": "REST API", 		"type": "devicon" },
+			{ "key": "git",			"name": "gitlab", 	"type": "devicon" } 
+		]
+	},
+	{
 		"project": "Homespot App",
 		"url": "",
 		"repo": "Private",

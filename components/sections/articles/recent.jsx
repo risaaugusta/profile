@@ -25,7 +25,7 @@ export default function Recent({ mediumArticles }) {
 					title="Coming soon" 
 				/> */}
 
-        {/* <section className={css.projects}>
+        <section className={css.projects}>
           {articles.map(
             (
               { title, pubDate, link, author, thumbnail, categories },
@@ -63,7 +63,7 @@ export default function Recent({ mediumArticles }) {
               );
             }
           )}
-        </section> */}
+        </section>
 
         <section className={css.projects}>
           {/* ARTICLE 1 */}
