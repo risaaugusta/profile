@@ -1,25 +1,5 @@
 [
 	{
-		"project": "News IOS App ",
-		"url": "https://github.com/risaaugusta/NewsAPP_SwiftUI",
-		"repo": "Public",
-		"descriptionTitle": "News App is a simple news app for IOS. Provide news list, search, bookmarks, until share features. Build with MVVM state management using SwiftUI.",
-		"description": "",
-		"imageOptions": [
-			{ "key": "size", 		"value": "large" }
-
-		],
-		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "450", "w": "300", "url": "/img/msc-mock_stack/news_app.png" }
-		],
-		"stack": [
-			{ "key": "swift", 		"name": "swift", 			"type": "devicon" }, 
-			{ "key": "apple",		"name": "IOS", 		"type": "devicon" },  
-			{ "key": "fastapi",		"name": "API Integration", 		"type": "devicon" },
-			{ "key": "git",			"name": "gitHub", 	"type": "devicon" } 
-		]
-	},
-	{
 		"project": "Trackmate BRIBox App",
 		"url": "",
 		"repo": "Private",
@@ -59,6 +39,26 @@
 			{ "key": "android",		"name": "android", 		"type": "devicon" }, 
 			{ "key": "fastapi",		"name": "REST API", 		"type": "devicon" },
 			{ "key": "git",			"name": "gitlab", 	"type": "devicon" } 
+		]
+	},
+	{
+		"project": "News IOS App ",
+		"url": "https://github.com/risaaugusta/NewsAPP_SwiftUI",
+		"repo": "Public",
+		"descriptionTitle": "News App is a simple news app for IOS. Provide news list, search, bookmarks, until share features. Build with MVVM state management using SwiftUI.",
+		"description": "",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "450", "w": "300", "url": "/img/msc-mock_stack/news_app.png" }
+		],
+		"stack": [
+			{ "key": "swift", 		"name": "swift", 			"type": "devicon" }, 
+			{ "key": "apple",		"name": "IOS", 		"type": "devicon" },  
+			{ "key": "fastapi",		"name": "API Integration", 		"type": "devicon" },
+			{ "key": "git",			"name": "gitHub", 	"type": "devicon" } 
 		]
 	},
 	{
