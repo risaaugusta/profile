@@ -29,6 +29,30 @@ export default function Career() {
           // subTitle="I am current managing, designing, and developing all consumer and digital product initiatives at My Supply Co."
         />
         <section className={career.area}>
+          {/* PPI */}
+          <article className={career.company}>
+            <div className={career.companyContent}>
+              <span className={career.companyHeader}>
+                <h3>PT Putra Perdana International </h3>
+                <h4>Full Stack Developer | Full-time</h4>
+                <h4>Jan 2026 - Present · 2mo</h4>
+                <h5>Jakarta</h5>
+              </span>
+              <ul className={career.list}>
+                <li>
+                  • Troubleshooting, bug-fixing, and code optimization the existing project
+                </li> 
+                
+              </ul>
+              <Badges
+                list={fsPPI}
+                block="stack"
+                fullContainer="fullContainer"
+              />
+            </div>
+            <div className={career.companyAlt}></div>
+          </article>
+
           {/* BIT */}
           <article className={career.company}>
             <div className={career.companyContent}>
@@ -372,6 +396,15 @@ const jseHPU = [
   { key: 'fastapi', name: 'REST API', type: 'devicon' },
   { key: "android", name: "android", type: "devicon" },
   { key: "figma", name: "figma", type: "devicon" },
+];
+
+const fsPPI = [
+   { key: "react", name: "React Js", type: "devicon" }, 
+   { key: "react", name: "Next Js", type: "devicon" }, 
+  { key: "javascript", name: "JavaScript", type: "devicon" },
+  { key: "nodejs", name: "NodeJS", type: "devicon" },
+  { key: 'fastapi', name: 'REST API', type: 'devicon' },
+  { key: "git", name: "Git", type: "devicon" },
 ];
 
 const feBIT = [
