@@ -15,6 +15,30 @@ import SectionGridBg from "../../blocks/section.grid.block";
 import career from "../../../styles/sections/index/career.module.scss";
 
 /**
+ * Calculates a duration in whole calendar months. Leave `endDate` empty for
+ * ongoing roles; the duration will then use the current month automatically.
+ */
+function formatCareerDuration(startDate, endDate) {
+  const [startYear, startMonth] = startDate.split("-").map(Number);
+  const [endYear, endMonth] = (endDate || new Date().toISOString().slice(0, 7))
+    .split("-")
+    .map(Number);
+  const totalMonths = Math.max(
+    1,
+    (endYear - startYear) * 12 + endMonth - startMonth + 1,
+  );
+  const years = Math.floor(totalMonths / 12);
+  const months = totalMonths % 12;
+
+  return [
+    years && `${years} ${years === 1 ? "yr" : "yrs"}`,
+    months && `${months} ${months === 1 ? "mo" : "mos"}`,
+  ]
+    .filter(Boolean)
+    .join(" ");
+}
+
+/**
  * Section: Career
  *
  * @returns {jsx} <Career />
@@ -35,14 +59,19 @@ export default function Career() {
               <span className={career.companyHeader}>
                 <h3>PT Putra Perdana International </h3>
                 <h4>Full Stack Developer | Full-time</h4>
-                <h4>Jan 2026 - Present · 2mo</h4>
+                <h4>Jan 2026 - Present · {formatCareerDuration("2026-01")}</h4>
                 <h5>Jakarta</h5>
               </span>
               <ul className={career.list}>
                 <li>
-                  • Troubleshooting, bug-fixing, and code optimization the existing project
-                </li> 
-                
+                  • Troubleshooting, bug-fixing, and code optimization the
+                  existing project
+                </li>
+                <li>• Develope Cameleo AI</li>
+                <li>
+                  • Working with React JS and Express JS with clean architecture
+                  pattern (vibe coding)
+                </li>
               </ul>
               <Badges
                 list={fsPPI}
@@ -59,25 +88,33 @@ export default function Career() {
               <span className={career.companyHeader}>
                 <h3>PT Bringin Inti Teknologi </h3>
                 <h4>Mobile Developer | Full-time</h4>
-                <h4>Jan 2024 - Jan 2026 · 2 yrs</h4>
+                <h4>
+                  Jan 2024 - Jan 2026 ·{" "}
+                  {formatCareerDuration("2024-01", "2026-01")}
+                </h4>
                 <h5>Jakarta</h5>
               </span>
               <ul className={career.list}>
                 <li>
-                  • Troubleshooting, bug-fixing, and code optimization the existing Homespot App by BRI
-                </li> 
-                <li>
-                  • Developed Homespot App revamp version by BRI, BRIBox Trackmate App, and ETWPAD App
-                </li> 
-                <li>
-                  • Working with BloC and GetX state management with clean architecture pattern
-                </li> 
-                <li>
-                  • Collaborated closely with project manager, back end developer, and QA
+                  • Troubleshooting, bug-fixing, and code optimization the
+                  existing Homespot App by BRI
                 </li>
                 <li>
-                  • Responsible to app production and submission to Google Play Store, ensuring timely and successful releases
-                </li>  
+                  • Developed Homespot App revamp version by BRI, BRIBox
+                  Trackmate App, and ETWPAD App
+                </li>
+                <li>
+                  • Working with BloC and GetX state management with clean
+                  architecture pattern
+                </li>
+                <li>
+                  • Collaborated closely with project manager, back end
+                  developer, and QA
+                </li>
+                <li>
+                  • Responsible to app production and submission to Google Play
+                  Store, ensuring timely and successful releases
+                </li>
               </ul>
               <Badges
                 list={feBIT}
@@ -94,7 +131,10 @@ export default function Career() {
               <span className={career.companyHeader}>
                 <h3>Telkom Indonesia</h3>
                 <h4>Internship</h4>
-                <h4>Feb 2023 - June 2023 · 5 mos</h4>
+                <h4>
+                  Feb 2023 - June 2023 ·{" "}
+                  {formatCareerDuration("2023-02", "2023-06")}
+                </h4>
                 <h5>Bandung</h5>
               </span>
               <p>
@@ -125,7 +165,10 @@ export default function Career() {
               <div className={career.positionContent}>
                 <span class={career.positionHeader}>
                   <h3>Front End Web Developer</h3>
-                  <h4>Apr 2023 - Jun 2023 · 3 mos</h4>
+                  <h4>
+                    Apr 2023 - Jun 2023 ·{" "}
+                    {formatCareerDuration("2023-04", "2023-06")}
+                  </h4>
                 </span>
                 <ul className={career.list}>
                   <li>• Developed and revamp Eventeer Website V2</li>
@@ -154,14 +197,24 @@ export default function Career() {
               <div className={career.positionContent}>
                 <span class={career.positionHeader}>
                   <h3>Front End Mobile Developer</h3>
-                  <h4>Feb 2023 - Apr 2023 · 3 mos</h4>
+                  <h4>
+                    Feb 2023 - Apr 2023 ·{" "}
+                    {formatCareerDuration("2023-02", "2023-04")}
+                  </h4>
                 </span>
                 <ul className={career.list}>
                   <li>
-                    • Troubleshooting, bug-fixing, and code optimization the existing Eventeer App V1 using React Native and React Expo
+                    • Troubleshooting, bug-fixing, and code optimization the
+                    existing Eventeer App V1 using React Native and React Expo
                   </li>
-                  <li>• Reducing app size ~20% by removing unnecessary function, code, and resources</li>
-                  <li>• Developed Eventeer App V2 using Flutter with GetX state management</li>
+                  <li>
+                    • Reducing app size ~20% by removing unnecessary function,
+                    code, and resources
+                  </li>
+                  <li>
+                    • Developed Eventeer App V2 using Flutter with GetX state
+                    management
+                  </li>
                   <li>• Troubleshooting and bug fixing on Eventeer App V2 .</li>
                   <li>
                     • Collaborated with stakeholders, UI/UX designers, system
@@ -184,7 +237,10 @@ export default function Career() {
               <span className={career.companyHeader}>
                 <h3>State University of Malang</h3>
                 <h4>Practicum Assistant | Part-time</h4>
-                <h4>Sep 2022 - Dec 2022 · 4 mos</h4>
+                <h4>
+                  Sep 2022 - Dec 2022 ·{" "}
+                  {formatCareerDuration("2022-09", "2022-12")}
+                </h4>
                 <h5>Malang</h5>
               </span>
               <ul className={career.list}>
@@ -210,19 +266,22 @@ export default function Career() {
               <span className={career.companyHeader}>
                 <h3>PT Harmoni Panca Utama </h3>
                 <h4>Junior Software Engineer | Part-time</h4>
-                <h4>Oct 2021 - May 2022 · 8 mos</h4>
+                <h4>
+                  Oct 2021 - May 2022 ·{" "}
+                  {formatCareerDuration("2021-10", "2022-05")}
+                </h4>
                 <h5>Jakarta</h5>
               </span>
               <ul className={career.list}>
                 <li>
-                  • Developed a synchronized fuel management system mobile app that impactful for 10++ mining site
+                  • Developed a synchronized fuel management system mobile app
+                  that impactful for 10++ mining site
                 </li>
                 <li>
-                  • Created various fuel transactions features, OTP auth, and QR code scanner using Flutter, REST APIs, and SQLite
+                  • Created various fuel transactions features, OTP auth, and QR
+                  code scanner using Flutter, REST APIs, and SQLite
                 </li>
-                <li>
-                  • Managing end to end development cycle for mobile
-                </li>
+                <li>• Managing end to end development cycle for mobile</li>
                 <li>
                   • Collaborated closely with team leader and back end developer
                 </li>
@@ -242,7 +301,10 @@ export default function Career() {
               <span className={career.companyHeader}>
                 <h3>Ardaworks</h3>
                 <h4>Full-time</h4>
-                <h4>Jul 2020 - Sep 2022 · 2 yrs 3 mos</h4>
+                <h4>
+                  Jul 2020 - Sep 2022 ·{" "}
+                  {formatCareerDuration("2020-07", "2022-09")}
+                </h4>
                 <h5>Jakarta</h5>
               </span>
               <p>
@@ -270,7 +332,10 @@ export default function Career() {
               <div className={career.positionContent}>
                 <span class={career.positionHeader}>
                   <h3>Project Manager</h3>
-                  <h4>Jan 2021 - Sep 2022 · 1 yr 9 mos</h4>
+                  <h4>
+                    Jan 2021 - Sep 2022 ·{" "}
+                    {formatCareerDuration("2021-01", "2022-09")}
+                  </h4>
                 </span>
                 <ul className={career.list}>
                   <li>
@@ -300,7 +365,10 @@ export default function Career() {
               <div className={career.positionContent}>
                 <span class={career.positionHeader}>
                   <h3>Junior Software Engineer</h3>
-                  <h4>Jul 2020 - Apr 2021 · 3 mos</h4>
+                  <h4>
+                    Jul 2020 - Apr 2021 ·{" "}
+                    {formatCareerDuration("2020-07", "2021-04")}
+                  </h4>
                 </span>
                 <ul className={career.list}>
                   <li>• Support develope mobile apps</li>
@@ -324,7 +392,10 @@ export default function Career() {
               <span className={career.companyHeader}>
                 <h3>PT Gamatechno Indonesia</h3>
                 <h4>Front End Developer | Internship</h4>
-                <h4>Jun 2019 - Sep 2021 · 3 mos</h4>
+                <h4>
+                  Jun 2019 - Sep 2021 ·{" "}
+                  {formatCareerDuration("2019-06", "2021-09")}
+                </h4>
                 <h5>Yogyakarta</h5>
               </span>
               <ul className={career.list}>
@@ -356,7 +427,7 @@ const telkomWeb = [
   { key: "nodejs", name: "NodeJS", type: "devicon" },
   { key: "nextjs", name: "NextJS", type: "devicon" },
   { key: "react", name: "React", type: "devicon" },
-  { key: 'fastapi', name: 'REST API', type: 'devicon' },
+  { key: "fastapi", name: "REST API", type: "devicon" },
   { key: "sass", name: "SASS", type: "devicon" },
   { key: "bootstrap", name: "Bootstrap", type: "devicon" },
   { key: "git", name: "Git", type: "devicon" },
@@ -368,7 +439,7 @@ const telkomMobile = [
   { key: "javascript", name: "JavaScript", type: "devicon" },
   { key: "dart", name: "Dart", type: "devicon" },
   { key: "nodejs", name: "NodeJS", type: "devicon" },
-  { key: 'fastapi', name: 'REST API', type: 'devicon' },
+  { key: "fastapi", name: "REST API", type: "devicon" },
   { key: "git", name: "Git", type: "devicon" },
 ];
 
@@ -393,17 +464,18 @@ const jseHPU = [
   { key: "flutter", name: "flutter", type: "devicon" },
   { key: "dart", name: "dart", type: "devicon" },
   { key: "sqlite", name: "sqlite", type: "devicon" },
-  { key: 'fastapi', name: 'REST API', type: 'devicon' },
+  { key: "fastapi", name: "REST API", type: "devicon" },
   { key: "android", name: "android", type: "devicon" },
   { key: "figma", name: "figma", type: "devicon" },
 ];
 
 const fsPPI = [
-   { key: "react", name: "React Js", type: "devicon" }, 
-   { key: "react", name: "Next Js", type: "devicon" }, 
+  { key: "react", name: "React Js", type: "devicon" },
+  { key: "react", name: "Next Js", type: "devicon" },
   { key: "javascript", name: "JavaScript", type: "devicon" },
   { key: "nodejs", name: "NodeJS", type: "devicon" },
-  { key: 'fastapi', name: 'REST API', type: 'devicon' },
+  { key: "fastapi", name: "REST API", type: "devicon" },
+  { key: "docker", name: "Docker", type: "devicon" },
   { key: "git", name: "Git", type: "devicon" },
 ];
 
@@ -411,7 +483,7 @@ const feBIT = [
   { key: "flutter", name: "flutter", type: "devicon" },
   { key: "dart", name: "dart", type: "devicon" },
   { key: "android", name: "android", type: "devicon" },
-  { key: 'fastapi', name: 'REST API', type: 'devicon' },
+  { key: "fastapi", name: "REST API", type: "devicon" },
   { key: "figma", name: "figma", type: "devicon" },
 ];
 

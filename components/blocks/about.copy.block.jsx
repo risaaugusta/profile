@@ -56,20 +56,18 @@ export default function CopyBlock({
           </tbody>
         </table>
         <h4>{time}</h4>
-        <p>
-          {copy}
-          <ul>
-            <li>{copy0}</li>
-            <li>{copy1}</li>
-            <li>{copy2}</li>
-            <li>{copy3}</li>
-            <li>{copy4}</li>
-            <li>{copy5}</li>
-            <li>{copy6}</li>
-            <li>{copy7}</li>
-            <li>{copy8}</li>
-          </ul>
-        </p>
+        <p>{copy}</p>
+        <ul>
+          <li>{copy0}</li>
+          <li>{copy1}</li>
+          <li>{copy2}</li>
+          <li>{copy3}</li>
+          <li>{copy4}</li>
+          <li>{copy5}</li>
+          <li>{copy6}</li>
+          <li>{copy7}</li>
+          <li>{copy8}</li>
+        </ul>
       </div>
     </>
   );

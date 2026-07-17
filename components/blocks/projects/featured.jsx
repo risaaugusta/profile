@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 import { useEffect } from 'react'
 import { m, useAnimation } from "framer-motion"
 import { useInView } from 'react-intersection-observer'
@@ -13,6 +11,7 @@ import content 		from '../../../content/projects/featured.json'
 export default function FeaturedProject({ content }, index) {
 
 	const { project, url, repo, descriptionTitle,description, stack, imageOptions, images } = content
+	const imageSize = imageOptions.find(({ key }) => key === 'size')?.value
 
 	const controls = useAnimation();
 	const { ref, inView  } = useInView({
@@ -55,14 +54,14 @@ export default function FeaturedProject({ content }, index) {
 				</div>
 			</div>
 
-			<div className={css.imageContainer}>
+			<div className={`${css.imageContainer} ${css[imageSize] || ''}`}>
 				<span className={`${css.imageAnimationContainer}`}>
-					{ images.map( ({key, url, hover, h, w }, index) => {
+					{ images.map( ({key, url, hover }, index) => {
 						hover = ( hover === 'left' ) ? hoverLeft : hoverRight
 						return (
 							<m.div key={`${index}-${key}`} variants={item}>
 								<m.div variants={hover}>
-									<Image src={url} alt="x" height={h} width={w} />
+									<img src={url} alt={`${project} preview`} />
 								</m.div>
 							</m.div>
 						)}
@@ -138,4 +137,3 @@ const hoverRight = {
 		x: 20
 	}
 }
-

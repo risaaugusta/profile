@@ -1,5 +1,24 @@
 [
 	{
+		"project": "Cameleo AI",
+		"url": "https://cameleo.ai/",
+		"repo": "Private",
+		"descriptionTitle": "CameleoAI is an Enterprise On-Premise GenAI platform delivering secure, local LLM solutions with RAG capabilities, ensuring data privacy and operational efficiency for businesses.",
+		"description": "Powered by PT Putra Perdana International",
+		"imageOptions": [
+			{ "key": "size", "value": "large" }
+		],
+		"images": [
+			{ "key": "cameleo-ai", "hover": "right", "h": "450", "w": "756", "url": "/img/msc-mock_stack/cameleo-ai.png" }
+		],
+		"stack": [
+			{ "key": "react", "name": "React JS", "type": "devicon" },
+			{ "key": "nodejs", "name": "Express JS", "type": "devicon" },
+			{ "key": "postgresql", "name": "PostgreSQL", "type": "devicon" },
+			{ "key": "docker", "name": "Docker", "type": "devicon" }
+		]
+	},
+	{
 		"project": "Trackmate BRIBox App",
 		"url": "",
 		"repo": "Private",
@@ -48,7 +67,7 @@
 		"descriptionTitle": "News App is a simple news app for IOS. Provide news list, search, bookmarks, until share features. Build with MVVM state management using SwiftUI.",
 		"description": "",
 		"imageOptions": [
-			{ "key": "size", 		"value": "large" }
+			{ "key": "size", 		"value": "portrait" }
 
 		],
 		"images": [
@@ -68,7 +87,7 @@
 		"descriptionTitle": "Login App (Logistic Interactive) app is a fuel management system mobile app for mining site ",
 		"description": "Powered by PT Harmoni Panca Utama.",
 		"imageOptions": [
-			{ "key": "size", 		"value": "large" }
+			{ "key": "size", 		"value": "portrait" }
 
 		],
 		"images": [

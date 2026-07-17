@@ -11,7 +11,11 @@ import css from "../../../styles/sections/projects/featured.module.scss";
 import content from "../../../content/projects/featured.json";
 import button from "../../../styles/blocks/button.module.scss";
 
-export default function FeaturedProjects() {
+export default function FeaturedProjects({ excludeProjects = [] }) {
+	const featuredProjects = content.filter(
+		({ project }) => !excludeProjects.includes(project)
+	)
+
   return (
     <Section classProp={css.hasBg}>
       <Container spacing={"verticalXXXXLrg"}>
@@ -20,7 +24,7 @@ export default function FeaturedProjects() {
           preTitle="Software Engineering"
           subTitle="Focusing on the front end development."
         />{" "}
-        {content.map((data, index) => {
+		{featuredProjects.map((data, index) => {
           return <FeaturedProject content={data} index={index} key={index} />;
         })}
         <div style={{textAlign: "center"}}>
@@ -28,7 +32,7 @@ export default function FeaturedProjects() {
             className={`button ${button.primary} leaveSite`}
             onClick={() =>
               window.open(
-                "https://bit.ly/portfolio_risaam",
+                "https://tinyurl.com/risaam-portfolio-2026",
                 "_blank"
               )
             }

@@ -53,6 +53,8 @@
 	.companyContent {
 		display: flex;
 		flex-direction: column;
+		flex: 1 1 auto;
+		min-width: 0;
 		gap: 1rem;
 		// max-width: calc( var(--grid-32) * 20 );
 		.list {
